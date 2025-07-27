@@ -48,8 +48,23 @@ This project predicts the likelihood of diabetes in patients using machine learn
 
 ## 📈 Results
 
-- **XGBoost** outperformed KNN in terms of accuracy and ROC-AUC score.
-- SHAP provided clear visual explanations for individual and global model predictions.
+### 🔍 XGBoost
+
+- **Accuracy:** 74%
+- **ROC AUC Score:** 0.596
+- **F1 Score (Class 1 - Diabetic):** 0.62
+
+> XGBoost gave moderate overall accuracy but struggled with distinguishing between classes, particularly diabetic cases. SHAP was used to interpret its predictions.
+
+---
+
+### 🔍 K-Nearest Neighbors (KNN)
+
+- **Accuracy:** 77%
+- **ROC AUC Score:** 0.819
+- **F1 Score (Class 1 - Diabetic):** 0.64
+
+> KNN outperformed XGBoost in both accuracy and ROC AUC, showing better balance in prediction across both classes.
 
 ---
 
@@ -57,6 +72,7 @@ This project predicts the likelihood of diabetes in patients using machine learn
 - Included in this repository as `diabetes.csv`
 - Original source: [Kaggle - Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
+---
 
 ## 🛠️ How to Run
 
