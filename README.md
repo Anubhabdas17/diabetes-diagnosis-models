@@ -53,6 +53,11 @@ This project predicts the likelihood of diabetes in patients using machine learn
 
 ---
 
+## Dataset
+- Included in this repository as `diabetes.csv`
+- Original source: [Kaggle - Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+
+
 ## 🛠️ How to Run
 
 1. Clone this repository:
